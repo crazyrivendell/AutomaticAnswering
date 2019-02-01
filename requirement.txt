@@ -1,4 +1,6 @@
+request
 pillow
 pytesseract
 tesseract-ocr
 tesseract
+selenium

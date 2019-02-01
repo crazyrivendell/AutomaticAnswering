@@ -1,2 +1,8 @@
 1.install python3(pycharm)
-2.install tesseract-ocr https://github.com/tesseract-ocr/tesseract/wiki
+   1.1 Tools->Vim Emulator not select
+2.install tesseract-ocr 
+   https://github.com/tesseract-ocr/tesseract/wiki
+   2.1 add C:\Program Files (x86)\Tesseract-OCR to Path
+   or
+   2.2 set "tesseract_cmd = 'C:\\Program Files (x86)\\Tesseract-OCR\\tesseract.exe'" in  D:\python\Lib\site-packages\pytesseract.py
+3. restart pycharm and run 
